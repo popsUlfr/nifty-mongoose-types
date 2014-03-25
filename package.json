@@ -12,6 +12,7 @@
   "scripts": {
     "test": "make test"
   },
+  "keywords": [ "mongoose", "mongo", "mongodb", "types", "mongoose-types", "url", "email" ],
   "repository": {
     "type": "git",
     "url": "git://github.com/niftylettuce/nifty-mongoose-types.git"
