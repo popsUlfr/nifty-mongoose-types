@@ -1,5 +1,7 @@
-mongoose-types - Useful types and type plugins for Mongoose
+nifty-mongoose-types - Useful types and type plugins for Mongoose
 ==============
+
+This is a fork of <https://github.com/bnoguchi/mongoose-types> since it was outdated and unmaintained.
 
 ### Types include:
 
@@ -67,7 +69,7 @@ Once you are setup, you can begin to use the new types.
     UserSchema.plugin(useTimestamps);
     mongoose.model('User', UserSchema);
     var User = db.model('User', UserSchema);
-    
+
     var user = new User({username: 'Prince'});
     user.save(function (err) {
       console.log(user.createdAt); // Should be approximately now
