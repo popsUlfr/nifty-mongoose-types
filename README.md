@@ -14,7 +14,7 @@ This is a fork of <https://github.com/bnoguchi/mongoose-types> since it was outd
   Adds `createdAt` and `updatedAt` date attributes that get auto-assigned to the most recent create/update timestamp.
 
 ### Installation
-    npm install mongoose-types
+    npm install nifty-mongoose-types
 
 ### Setup
 
