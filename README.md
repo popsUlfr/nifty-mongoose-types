@@ -22,14 +22,14 @@ To include all of the defined types:
 
     var mongoose = require("mongoose");
     var db = mongoose.createConnection("mongodb://localhost/sampledb");
-    var mongooseTypes = require("mongoose-types");
+    var mongooseTypes = require("nifty-mongoose-types");
     mongooseTypes.loadTypes(mongoose);
 
 You can also specify that you only want to load and use a limited subset of the types provided:
 
     var mongoose = require("mongoose");
     var db = mongoose.createConnection("mongodb://localhost/sampledb");
-    var mongooseTypes = require("mongoose-types");
+    var mongooseTypes = require("nifty-mongoose-types");
     // Only load the email type
     mongooseTypes.loadTypes(mongoose, "email");
 
@@ -61,7 +61,7 @@ Once you are setup, you can begin to use the new types.
 
     var mongoose = require("mongoose");
     var db = mongoose.createConnection("mongodb://localhost/sampledb");
-    var mongooseTypes = require("mongoose-types")
+    var mongooseTypes = require("nifty-mongoose-types")
       , useTimestamps = mongooseTypes.useTimestamps;
     var UserSchema = new Schema({
         username: String
