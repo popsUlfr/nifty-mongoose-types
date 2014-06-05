@@ -1,6 +1,6 @@
 {
   "name": "nifty-mongoose-types",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Additional types for Mongoose based off @bnoguchi's mongoose-types module",
   "main": "index.js",
   "directories": {
